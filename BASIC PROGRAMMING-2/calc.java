@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class calc{
+public static void main(String []args){
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter no a");
+double a = sc.nextDouble();
+System.out.println("Enter no b");
+double b = sc.nextDouble();
+double add = a + b;
+double sub = a - b;
+double mul = a * b;
+double div = a / b;
+System.out.println("addition is"+add);
+System.out.println("subtraction is"+sub);
+System.out.println("multiplication is"+mul);
+System.out.println("division is"+div);
+}
+}
