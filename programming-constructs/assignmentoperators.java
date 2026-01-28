@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class assignmentoperators{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter First No");
+int a=sc.nextInt();
+System.out.println("Enter Second No");
+int b=sc.nextInt();
+int c=a+b;
+int d=a-b;
+int e=a*b;
+int f=a/b;
+int g=a%b;
+System.out.println("add is"+c);
+System.out.println("diff is"+d);
+System.out.println("mul is"+e);
+System.out.println("div is"+f);
+System.out.println("rem is"+g);
+}
+}
